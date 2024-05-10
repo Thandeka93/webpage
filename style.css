@@ -1,0 +1,126 @@
+.container {
+    background-image: url('Table-Mountain-Cape-Town_3.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.5em;
+  }
+
+  body {
+    background-color: #d17636;
+    align-content: stretch;
+  }
+
+  .names {
+    text-align: center;
+    color: rgb(238, 92, 7);
+    margin-top: 5em;
+    margin-left: 0.5em;
+  }
+.center img{
+  margin-top: 0.5em;
+  padding-left: 15%;
+  
+}
+
+   .personal { 
+    margin-left: 60%; 
+     } 
+
+  @media (min-width: 620px){
+    .personal {
+      display: inline-flex;
+    }
+  }
+
+  .citypic { 
+    margin: 1em; 
+    /* object-fit: cover; */
+    /* border-radius: 0.5em */
+  } 
+
+  .city {
+    display: flex;
+  }
+
+  .para0 {
+    width: 25em;
+    display: inline-block;
+    font-size: large;
+  }
+
+  table{
+    border-collapse: collapse;
+width: 80%;
+border-spacing: 0;
+margin: 0 -10px 0 -10px;
+  }
+  td,
+  tr,
+  th {
+    border: 1px solid rgb(15, 15, 15);
+    border-collapse: collapse;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+    border-radius: 1em;
+    color: #111111;
+    margin-top: 0.5em;
+    margin: 0.5em;
+    font-size: large;
+    
+  }
+  .tables{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .para1 {
+    width: 53%;
+    font-size: large;
+    padding-left: 20px; 
+  }
+
+  .para2 {
+    width: 75%;
+    font-size: large;
+  }
+  .hist1{
+    font-size: large;
+  }
+
+  .citychoice, .hplaces, .language {
+    text-align: center;
+  }
+
+  @media (min-width: 600px) {
+    .historicalplaces {
+      display: flex;
+      width: 90%;
+      margin: 0.5em; 
+    }
+  }
+  .hist1{
+    align-items: center;
+    margin: 20px;
+  }
+
+  @media screen and (max-width: 620px) {
+    
+    .personal,
+    .container,
+    .city,
+    .para0,
+    .para1,
+    .historicalplaces
+    table
+    
+     {
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 600px){
+    .citypic{
+      object-fit: cover;
+    }
+  }
+ 
